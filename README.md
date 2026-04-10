@@ -1,3 +1,24 @@
+# Clevexport
+
+***Async Excel export for large Laravel datasets -- chunked, queued, and crash-free.***
+
+![License](https://img.shields.io/github/license/cognitx-leyton/clevexport?style=flat-square)
+![Stars](https://img.shields.io/github/stars/cognitx-leyton/clevexport?style=flat-square)
+![PHP](https://img.shields.io/badge/php-%3E%3D7.4-8892BF?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/laravel-6.x--8.x-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+
+---
+
+## Table of Contents
+
+- [Motivation](#motivation)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Exportable](#exportable)
+- [Transformer](#transformer)
+
+---
+
 ## Motivation
 The goal of this Laravel package is to execute the exportation to **EXCEL** large data/records that may cause in the crash of the server or a timeout. The idea is to divide the process in sub operations managable and easy to perform.
 
@@ -93,3 +114,15 @@ class UserTransformer implements ShouldHandleResult
     }
 }
 ````
+
+---
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  <sub>Built with care by <a href="https://cognitx.leyton.com/">Leyton CognitX</a></sub>
+</p>
